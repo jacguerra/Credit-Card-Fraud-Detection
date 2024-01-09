@@ -8,7 +8,7 @@ The aim of this project was to precisely detect fraudulent credit card transacti
    
 The data was composed of company credit card transactions from a US government organization. The dataset had 10 fields, 96,753 records and covered the year 2010. Of the fields, 2 were numerical and 8 were categorical.
 
-**Variable Creation**
+**Feature Engineering**
    
 During the variable creation step, a total of 1,383 variables were created. This included two Benford’s Law variables, which measured the unusualness of the first digit of the Merchnumber and Cardnumber fields. Amount variables calculated the average, max, median and total amount spent for each entity over a particular time period, and an Amount Bin variable was also created to group the transaction amounts into 5 bins to make the amount field more useful for analysis.
 
